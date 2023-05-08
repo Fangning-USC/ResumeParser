@@ -1,5 +1,5 @@
 # ResumeParser
-Gather all the information from a Resume.
+The most robust Resume paser which gathers all the information from a Resume.
 
 Follow the Example.ipynb to generate the dictionary which stores all the information of a Resume.
 
