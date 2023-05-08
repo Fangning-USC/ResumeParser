@@ -37,7 +37,7 @@ from Utilities import extract_text_from_pdf, extract_text_from_docx, parse_txt_t
 resume_info_all = defaultdict(list)
 
 # get filenames
-path_main_dir = "/Users/fangningzheng/Insync/fangninz@usc.edu/GDrive/career/HireBeat/week_2_ResumeParser/resumeParser"
+path_main_dir = ""
 path_to_doc = path_main_dir + "/resume_examples"
 os.chdir(path_to_doc)
 files = [f for f in os.listdir('.') if os.path.isfile(f) and (f.endswith('.docx') or f.endswith('.pdf'))]
